@@ -1,0 +1,41 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - DoubleSemicolon",
+      "request": "launch",
+      "mainClass": "frc.robot.DoubleSemicolon",
+      "projectName": "PIDChassisTest"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Add",
+      "request": "launch",
+      "mainClass": "frc.robot.Add",
+      "projectName": "PIDChassisTest"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - LogSplitter",
+      "request": "launch",
+      "mainClass": "frc.robot.LogSplitter",
+      "projectName": "PIDChassisTest"
+    },
+    {
+      "type": "wpilib",
+      "name": "WPILib Desktop Debug",
+      "request": "launch",
+      "desktop": true
+    },
+    {
+      "type": "wpilib",
+      "name": "WPILib roboRIO Debug",
+      "request": "launch",
+      "desktop": false
+    }
+  ]
+}
